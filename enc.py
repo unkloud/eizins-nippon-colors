@@ -40,6 +40,9 @@ class NipponColor:
         colors = json.loads(input_file_path.read_text())
         return [NipponColor(**val) for val in colors]
 
+    def as_markdown(self, element="span") -> str:
+        return f"<{element} style='background-color: #{self.hex_rgb}'>{self.kanji_name}, {self.english_name}</{element}>"
+
 
 def main():
     parser = argparse.ArgumentParser(description="Manage Nippon Colors data.")
@@ -57,6 +60,13 @@ def main():
         default="https://nipponcolors.com",
         help="URL of the source page to fetch color data from (default: https://nipponcolors.com)",
     )
+    # Define the 'markdown' command.
+    markdown_parser = subparsers.add_parser("markdown", help="Generate markdown output from a file.")
+    markdown_parser.add_argument(
+        "file_name",
+        help="Path to the input file for markdown generation.",
+    )
+    markdown_parser.add_argument("--element", default="span", help="HTML element to use for markdown output.")
     args = parser.parse_args()
     if args.command == "refresh":
         colors = NipponColor.refresh(source_page=args.source)
@@ -69,6 +79,10 @@ def main():
                 print(f"Error saving data to file {args.output}: {e}")
         else:
             print("No colors were extracted. Nothing to save.")
+    elif args.command == "markdown":
+        colors = NipponColor.load(Path(args.file_name))
+        for color in colors:
+            print(color.as_markdown(args.element))
     else:
         parser.print_help()
 
