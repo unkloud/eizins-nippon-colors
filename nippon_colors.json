@@ -1,0 +1,2752 @@
+[
+  {
+    "kanji_name": "\u64ab\u5b50",
+    "english_name": "NADESHIKO",
+    "hex_rgb": "DC9FB4",
+    "cmyk": [
+      2,
+      43,
+      3,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u6885",
+    "english_name": "KOHBAI",
+    "hex_rgb": "E16B8C",
+    "cmyk": [
+      0,
+      73,
+      24,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u8607\u82b3",
+    "english_name": "SUOH",
+    "hex_rgb": "8E354A",
+    "cmyk": [
+      51,
+      93,
+      58,
+      10
+    ]
+  },
+  {
+    "kanji_name": "\u9000\u7d05",
+    "english_name": "TAIKOH",
+    "hex_rgb": "F8C3CD",
+    "cmyk": [
+      0,
+      31,
+      9,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u4e00\u65a5\u67d3",
+    "english_name": "IKKONZOME",
+    "hex_rgb": "F4A7B9",
+    "cmyk": [
+      0,
+      48,
+      15,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6851\u67d3",
+    "english_name": "KUWAZOME",
+    "hex_rgb": "64363C",
+    "cmyk": [
+      69,
+      86,
+      65,
+      35
+    ]
+  },
+  {
+    "kanji_name": "\u6843",
+    "english_name": "MOMO",
+    "hex_rgb": "F596AA",
+    "cmyk": [
+      0,
+      55,
+      19,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u82fa",
+    "english_name": "ICHIGO",
+    "hex_rgb": "B5495B",
+    "cmyk": [
+      2,
+      70,
+      38,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u8584\u7d05",
+    "english_name": "USUBENI",
+    "hex_rgb": "E87A90",
+    "cmyk": [
+      0,
+      64,
+      26,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u4eca\u69d8",
+    "english_name": "IMAYOH",
+    "hex_rgb": "D05A6E",
+    "cmyk": [
+      0,
+      75,
+      38,
+      20
+    ]
+  },
+  {
+    "kanji_name": "\u4e2d\u7d05",
+    "english_name": "NAKABENI",
+    "hex_rgb": "DB4D6D",
+    "cmyk": [
+      5,
+      83,
+      40,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u685c",
+    "english_name": "SAKURA",
+    "hex_rgb": "FEDFE1",
+    "cmyk": [
+      0,
+      17,
+      6,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6885\u9f20",
+    "english_name": "UMENEZUMI",
+    "hex_rgb": "9E7A7A",
+    "cmyk": [
+      48,
+      59,
+      49,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u97d3\u7d05\u82b1",
+    "english_name": "KARAKURENAI",
+    "hex_rgb": "D0104C",
+    "cmyk": [
+      15,
+      98,
+      61,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u71d5\u8102",
+    "english_name": "ENJI",
+    "hex_rgb": "9F353A",
+    "cmyk": [
+      42,
+      93,
+      68,
+      6
+    ]
+  },
+  {
+    "kanji_name": "\u7d05",
+    "english_name": "KURENAI",
+    "hex_rgb": "CB1B45",
+    "cmyk": [
+      0,
+      100,
+      65,
+      10
+    ]
+  },
+  {
+    "kanji_name": "\u9d07",
+    "english_name": "TOKI",
+    "hex_rgb": "EEA9A9",
+    "cmyk": [
+      2,
+      45,
+      27,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9577\u6625",
+    "english_name": "CYOHSYUN",
+    "hex_rgb": "BF6766",
+    "cmyk": [
+      25,
+      70,
+      53,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6df1\u7dcb",
+    "english_name": "KOKIAKE",
+    "hex_rgb": "86473F",
+    "cmyk": [
+      54,
+      75,
+      65,
+      14
+    ]
+  },
+  {
+    "kanji_name": "\u685c\u9f20",
+    "english_name": "SAKURANEZUMI",
+    "hex_rgb": "B19693",
+    "cmyk": [
+      34,
+      46,
+      39,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u751a\u4e09\u7d05",
+    "english_name": "JINZAMOMI",
+    "hex_rgb": "EB7A77",
+    "cmyk": [
+      0,
+      65,
+      46,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5c0f\u8c46",
+    "english_name": "AZUKI",
+    "hex_rgb": "954A45",
+    "cmyk": [
+      48,
+      78,
+      66,
+      10
+    ]
+  },
+  {
+    "kanji_name": "\u8607\u82b3\u9999",
+    "english_name": "SUOHKOH",
+    "hex_rgb": "A96360",
+    "cmyk": [
+      42,
+      70,
+      58,
+      1
+    ]
+  },
+  {
+    "kanji_name": "\u8d64\u7d05",
+    "english_name": "AKABENI",
+    "hex_rgb": "CB4042",
+    "cmyk": [
+      15,
+      85,
+      68,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u771f\u6731",
+    "english_name": "SHINSYU",
+    "hex_rgb": "AB3B3A",
+    "cmyk": [
+      35,
+      85,
+      70,
+      2
+    ]
+  },
+  {
+    "kanji_name": "\u7070\u685c",
+    "english_name": "HAIZAKURA",
+    "hex_rgb": "D7C4BB",
+    "cmyk": [
+      2,
+      12,
+      12,
+      10
+    ]
+  },
+  {
+    "kanji_name": "\u6817\u6885",
+    "english_name": "KURIUME",
+    "hex_rgb": "904840",
+    "cmyk": [
+      50,
+      78,
+      68,
+      13
+    ]
+  },
+  {
+    "kanji_name": "\u6d77\u8001\u8336",
+    "english_name": "EBICHA",
+    "hex_rgb": "734338",
+    "cmyk": [
+      55,
+      77,
+      68,
+      27
+    ]
+  },
+  {
+    "kanji_name": "\u9280\u6731",
+    "english_name": "GINSYU",
+    "hex_rgb": "C73E3A",
+    "cmyk": [
+      16,
+      86,
+      70,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ed2\u9cf6",
+    "english_name": "KUROTOBI",
+    "hex_rgb": "554236",
+    "cmyk": [
+      71,
+      74,
+      69,
+      41
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u9cf6",
+    "english_name": "BENITOBI",
+    "hex_rgb": "994639",
+    "cmyk": [
+      45,
+      82,
+      72,
+      11
+    ]
+  },
+  {
+    "kanji_name": "\u66d9",
+    "english_name": "AKEBONO",
+    "hex_rgb": "F19483",
+    "cmyk": [
+      0,
+      57,
+      47,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u6a3a",
+    "english_name": "BENIKABA",
+    "hex_rgb": "B54434",
+    "cmyk": [
+      35,
+      87,
+      79,
+      1
+    ]
+  },
+  {
+    "kanji_name": "\u6c34\u304c\u304d",
+    "english_name": "MIZUGAKI",
+    "hex_rgb": "B9887D",
+    "cmyk": [
+      30,
+      54,
+      46,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u73ca\u745a\u6731",
+    "english_name": "SANGOSYU",
+    "hex_rgb": "F17C67",
+    "cmyk": [
+      0,
+      65,
+      58,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u6a9c\u76ae",
+    "english_name": "BENIHIWADA",
+    "hex_rgb": "884C3A",
+    "cmyk": [
+      52,
+      74,
+      70,
+      18
+    ]
+  },
+  {
+    "kanji_name": "\u7329\u7329\u7dcb",
+    "english_name": "SYOJYOHI",
+    "hex_rgb": "E83015",
+    "cmyk": [
+      0,
+      89,
+      79,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u925b\u4e39",
+    "english_name": "ENTAN",
+    "hex_rgb": "D75455",
+    "cmyk": [
+      0,
+      72,
+      63,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u829d\u7feb\u8336",
+    "english_name": "SHIKANCHA",
+    "hex_rgb": "B55D4C",
+    "cmyk": [
+      37,
+      72,
+      68,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6a9c\u76ae",
+    "english_name": "HIWADA",
+    "hex_rgb": "854836",
+    "cmyk": [
+      49,
+      73,
+      70,
+      18
+    ]
+  },
+  {
+    "kanji_name": "\u67ff\u6e0b",
+    "english_name": "KAKISHIBU",
+    "hex_rgb": "A35E47",
+    "cmyk": [
+      43,
+      72,
+      71,
+      4
+    ]
+  },
+  {
+    "kanji_name": "\u7dcb",
+    "english_name": "AKE",
+    "hex_rgb": "CC543A",
+    "cmyk": [
+      17,
+      79,
+      74,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9cf6",
+    "english_name": "TOBI",
+    "hex_rgb": "724832",
+    "cmyk": [
+      58,
+      73,
+      70,
+      26
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u7dcb",
+    "english_name": "BENIHI",
+    "hex_rgb": "F75C2F",
+    "cmyk": [
+      0,
+      75,
+      74,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6817\u76ae\u8336",
+    "english_name": "KURIKAWACHA",
+    "hex_rgb": "6A4028",
+    "cmyk": [
+      58,
+      74,
+      72,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u5f01\u67c4",
+    "english_name": "BENGARA",
+    "hex_rgb": "9A5034",
+    "cmyk": [
+      44,
+      74,
+      75,
+      12
+    ]
+  },
+  {
+    "kanji_name": "\u7167\u67ff",
+    "english_name": "TERIGAKI",
+    "hex_rgb": "C46243",
+    "cmyk": [
+      24,
+      72,
+      72,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6c5f\u6238\u8336",
+    "english_name": "EDOCHA",
+    "hex_rgb": "AF5F3C",
+    "cmyk": [
+      38,
+      70,
+      71,
+      3
+    ]
+  },
+  {
+    "kanji_name": "\u6d17\u6731",
+    "english_name": "ARAISYU",
+    "hex_rgb": "FB966E",
+    "cmyk": [
+      0,
+      54,
+      56,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u767e\u5869\u8336",
+    "english_name": "MOMOSHIOCHA",
+    "hex_rgb": "724938",
+    "cmyk": [
+      61,
+      70,
+      68,
+      25
+    ]
+  },
+  {
+    "kanji_name": "\u5510\u8336",
+    "english_name": "KARACHA",
+    "hex_rgb": "B47157",
+    "cmyk": [
+      38,
+      64,
+      65,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u3068\u304d\u304c\u3089\u8336",
+    "english_name": "TOKIGARACHA",
+    "hex_rgb": "DB8E71",
+    "cmyk": [
+      10,
+      55,
+      57,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u4e39",
+    "english_name": "OHNI",
+    "hex_rgb": "F05E1C",
+    "cmyk": [
+      0,
+      72,
+      90,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7e81",
+    "english_name": "SOHI",
+    "hex_rgb": "ED784A",
+    "cmyk": [
+      0,
+      65,
+      73,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9060\u5dde\u8336",
+    "english_name": "ENSYUCHA",
+    "hex_rgb": "CA7853",
+    "cmyk": [
+      21,
+      64,
+      67,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6a3a\u8336",
+    "english_name": "KABACHA",
+    "hex_rgb": "B35C37",
+    "cmyk": [
+      36,
+      72,
+      76,
+      2
+    ]
+  },
+  {
+    "kanji_name": "\u7126\u8336",
+    "english_name": "KOGECHA",
+    "hex_rgb": "563F2E",
+    "cmyk": [
+      68,
+      73,
+      71,
+      40
+    ]
+  },
+  {
+    "kanji_name": "\u8d64\u9999",
+    "english_name": "AKAKOH",
+    "hex_rgb": "E3916E",
+    "cmyk": [
+      5,
+      55,
+      60,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u96c0\u8336",
+    "english_name": "SUZUMECHA",
+    "hex_rgb": "8F5A3C",
+    "cmyk": [
+      52,
+      69,
+      73,
+      15
+    ]
+  },
+  {
+    "kanji_name": "\u5b8d",
+    "english_name": "SHISHI",
+    "hex_rgb": "F0A986",
+    "cmyk": [
+      0,
+      47,
+      50,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5b97\u4f1d\u5510\u8336",
+    "english_name": "SODENKARACHA",
+    "hex_rgb": "A0674B",
+    "cmyk": [
+      48,
+      66,
+      70,
+      6
+    ]
+  },
+  {
+    "kanji_name": "\u6a3a",
+    "english_name": "KABA",
+    "hex_rgb": "C1693C",
+    "cmyk": [
+      26,
+      70,
+      78,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6df1\u652f\u5b50",
+    "english_name": "KOKIKUCHINASHI",
+    "hex_rgb": "FB9966",
+    "cmyk": [
+      0,
+      53,
+      65,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u80e1\u6843",
+    "english_name": "KURUMI",
+    "hex_rgb": "947A6D",
+    "cmyk": [
+      51,
+      56,
+      57,
+      1
+    ]
+  },
+  {
+    "kanji_name": "\u4ee3\u8d6d",
+    "english_name": "TAISYA",
+    "hex_rgb": "A36336",
+    "cmyk": [
+      38,
+      67,
+      82,
+      3
+    ]
+  },
+  {
+    "kanji_name": "\u6d17\u67ff",
+    "english_name": "ARAIGAKI",
+    "hex_rgb": "E79460",
+    "cmyk": [
+      0,
+      53,
+      67,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u6ae8\u67d3",
+    "english_name": "KOHROZEN",
+    "hex_rgb": "7D532C",
+    "cmyk": [
+      55,
+      68,
+      78,
+      23
+    ]
+  },
+  {
+    "kanji_name": "\u8d64\u673d\u8449",
+    "english_name": "AKAKUCHIBA",
+    "hex_rgb": "C78550",
+    "cmyk": [
+      5,
+      52,
+      70,
+      14
+    ]
+  },
+  {
+    "kanji_name": "\u792a\u8336",
+    "english_name": "TONOCHA",
+    "hex_rgb": "985F2A",
+    "cmyk": [
+      48,
+      66,
+      79,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u8d64\u767d\u6a61",
+    "english_name": "AKASHIROTSURUBAMI",
+    "hex_rgb": "E1A679",
+    "cmyk": [
+      6,
+      42,
+      55,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u714e\u8336",
+    "english_name": "SENCHA",
+    "hex_rgb": "855B32",
+    "cmyk": [
+      55,
+      66,
+      75,
+      14
+    ]
+  },
+  {
+    "kanji_name": "\u8431\u8349",
+    "english_name": "KANZO",
+    "hex_rgb": "FC9F4D",
+    "cmyk": [
+      0,
+      49,
+      72,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6d12\u843d\u67ff",
+    "english_name": "SHAREGAKI",
+    "hex_rgb": "FFBA84",
+    "cmyk": [
+      0,
+      36,
+      53,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u9b31\u91d1",
+    "english_name": "BENIUKON",
+    "hex_rgb": "E98B2A",
+    "cmyk": [
+      0,
+      52,
+      80,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6885\u67d3",
+    "english_name": "UMEZOME",
+    "hex_rgb": "E9A368",
+    "cmyk": [
+      3,
+      45,
+      62,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6787\u6777\u8336",
+    "english_name": "BIWACHA",
+    "hex_rgb": "B17844",
+    "cmyk": [
+      35,
+      58,
+      75,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u4e01\u5b50\u8336",
+    "english_name": "CHOJICHA",
+    "hex_rgb": "96632E",
+    "cmyk": [
+      50,
+      61,
+      76,
+      9
+    ]
+  },
+  {
+    "kanji_name": "\u61b2\u6cd5\u67d3",
+    "english_name": "KENPOHZOME",
+    "hex_rgb": "43341B",
+    "cmyk": [
+      76,
+      71,
+      73,
+      47
+    ]
+  },
+  {
+    "kanji_name": "\u7425\u73c0",
+    "english_name": "KOHAKU",
+    "hex_rgb": "CA7A2C",
+    "cmyk": [
+      20,
+      58,
+      85,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u8584\u67ff",
+    "english_name": "USUGAKI",
+    "hex_rgb": "ECB88A",
+    "cmyk": [
+      0,
+      34,
+      52,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u4f3d\u7f85",
+    "english_name": "KYARA",
+    "hex_rgb": "78552B",
+    "cmyk": [
+      58,
+      62,
+      72,
+      16
+    ]
+  },
+  {
+    "kanji_name": "\u4e01\u5b50\u67d3",
+    "english_name": "CHOJIZOME",
+    "hex_rgb": "B07736",
+    "cmyk": [
+      36,
+      57,
+      79,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u67f4\u67d3",
+    "english_name": "FUSHIZOME",
+    "hex_rgb": "967249",
+    "cmyk": [
+      50,
+      56,
+      71,
+      5
+    ]
+  },
+  {
+    "kanji_name": "\u673d\u8449",
+    "english_name": "KUCHIBA",
+    "hex_rgb": "E2943B",
+    "cmyk": [
+      7,
+      49,
+      80,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u91d1\u8336",
+    "english_name": "KINCHA",
+    "hex_rgb": "C7802D",
+    "cmyk": [
+      20,
+      56,
+      89,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u72d0",
+    "english_name": "KITSUNE",
+    "hex_rgb": "9B6E23",
+    "cmyk": [
+      46,
+      57,
+      80,
+      4
+    ]
+  },
+  {
+    "kanji_name": "\u7164\u7af9",
+    "english_name": "SUSUTAKE",
+    "hex_rgb": "6E552F",
+    "cmyk": [
+      62,
+      63,
+      73,
+      21
+    ]
+  },
+  {
+    "kanji_name": "\u8584\u9999",
+    "english_name": "USUKOH",
+    "hex_rgb": "EBB471",
+    "cmyk": [
+      0,
+      34,
+      60,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7825\u7c89",
+    "english_name": "TONOKO",
+    "hex_rgb": "D7B98E",
+    "cmyk": [
+      5,
+      20,
+      38,
+      15
+    ]
+  },
+  {
+    "kanji_name": "\u9280\u7164\u7af9",
+    "english_name": "GINSUSUTAKE",
+    "hex_rgb": "82663A",
+    "cmyk": [
+      54,
+      58,
+      76,
+      10
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u571f",
+    "english_name": "OHDO",
+    "hex_rgb": "B68E55",
+    "cmyk": [
+      31,
+      45,
+      66,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u767d\u8336",
+    "english_name": "SHIRACHA",
+    "hex_rgb": "BC9F77",
+    "cmyk": [
+      32,
+      40,
+      57,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5a9a\u8336",
+    "english_name": "KOBICHA",
+    "hex_rgb": "876633",
+    "cmyk": [
+      58,
+      59,
+      78,
+      14
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u5510\u8336",
+    "english_name": "KIGARACHA",
+    "hex_rgb": "C18A26",
+    "cmyk": [
+      28,
+      48,
+      83,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5c71\u5439",
+    "english_name": "YAMABUKI",
+    "hex_rgb": "FFB11B",
+    "cmyk": [
+      0,
+      37,
+      87,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5c71\u5439\u8336",
+    "english_name": "YAMABUKICHA",
+    "hex_rgb": "D19826",
+    "cmyk": [
+      17,
+      44,
+      89,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6ae8\u67d3",
+    "english_name": "HAJIZOME",
+    "hex_rgb": "DDA52D",
+    "cmyk": [
+      8,
+      40,
+      83,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6851\u8336",
+    "english_name": "KUWACHA",
+    "hex_rgb": "C99833",
+    "cmyk": [
+      25,
+      44,
+      83,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7389\u5b50",
+    "english_name": "TAMAGO",
+    "hex_rgb": "F9BF45",
+    "cmyk": [
+      0,
+      29,
+      74,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u767d\u6a61",
+    "english_name": "SHIROTSURUBAMI",
+    "hex_rgb": "DCB879",
+    "cmyk": [
+      16,
+      30,
+      60,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u6a61",
+    "english_name": "KITSURUBAMI",
+    "hex_rgb": "BA9132",
+    "cmyk": [
+      31,
+      44,
+      77,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7389\u8700\u9ecd",
+    "english_name": "TAMAMOROKOSHI",
+    "hex_rgb": "E8B647",
+    "cmyk": [
+      4,
+      29,
+      71,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u82b1\u8449",
+    "english_name": "HANABA",
+    "hex_rgb": "F7C242",
+    "cmyk": [
+      0,
+      25,
+      72,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u751f\u58c1",
+    "english_name": "NAMAKABE",
+    "hex_rgb": "7D6C46",
+    "cmyk": [
+      58,
+      56,
+      70,
+      8
+    ]
+  },
+  {
+    "kanji_name": "\u9ce5\u306e\u5b50",
+    "english_name": "TORINOKO",
+    "hex_rgb": "DAC9A6",
+    "cmyk": [
+      14,
+      20,
+      39,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6d45\u9ec4",
+    "english_name": "USUKI",
+    "hex_rgb": "FAD689",
+    "cmyk": [
+      0,
+      17,
+      53,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u673d\u8449",
+    "english_name": "KIKUCHIBA",
+    "hex_rgb": "D9AB42",
+    "cmyk": [
+      14,
+      33,
+      75,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6894\u5b50",
+    "english_name": "KUCHINASHI",
+    "hex_rgb": "F6C555",
+    "cmyk": [
+      0,
+      25,
+      70,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7c50\u9ec4",
+    "english_name": "TOHOH",
+    "hex_rgb": "FFC408",
+    "cmyk": [
+      0,
+      25,
+      86,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9b31\u91d1",
+    "english_name": "UKON",
+    "hex_rgb": "EFBB24",
+    "cmyk": [
+      3,
+      29,
+      88,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u82a5\u5b50",
+    "english_name": "KARASHI",
+    "hex_rgb": "CAAD5F",
+    "cmyk": [
+      0,
+      16,
+      70,
+      27
+    ]
+  },
+  {
+    "kanji_name": "\u80a5\u5f8c\u7164\u7af9",
+    "english_name": "HIGOSUSUTAKE",
+    "hex_rgb": "8D742A",
+    "cmyk": [
+      55,
+      53,
+      82,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u5229\u4f11\u767d\u8336",
+    "english_name": "RIKYUSHIRACHA",
+    "hex_rgb": "B4A582",
+    "cmyk": [
+      36,
+      33,
+      54,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7070\u6c41",
+    "english_name": "AKU",
+    "hex_rgb": "877F6C",
+    "cmyk": [
+      58,
+      51,
+      60,
+      1
+    ]
+  },
+  {
+    "kanji_name": "\u5229\u4f11\u8336",
+    "english_name": "RIKYUCHA",
+    "hex_rgb": "897D55",
+    "cmyk": [
+      57,
+      50,
+      70,
+      3
+    ]
+  },
+  {
+    "kanji_name": "\u8def\u8003\u8336",
+    "english_name": "ROKOHCHA",
+    "hex_rgb": "74673E",
+    "cmyk": [
+      64,
+      57,
+      73,
+      10
+    ]
+  },
+  {
+    "kanji_name": "\u83dc\u7a2e\u6cb9",
+    "english_name": "NATANEYU",
+    "hex_rgb": "A28C37",
+    "cmyk": [
+      46,
+      42,
+      84,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9daf\u8336",
+    "english_name": "UGUISUCHA",
+    "hex_rgb": "6C6024",
+    "cmyk": [
+      64,
+      56,
+      78,
+      16
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u6d77\u677e\u8336",
+    "english_name": "KIMIRUCHA",
+    "hex_rgb": "867835",
+    "cmyk": [
+      57,
+      48,
+      78,
+      6
+    ]
+  },
+  {
+    "kanji_name": "\u6d77\u677e\u8336",
+    "english_name": "MIRUCHA",
+    "hex_rgb": "62592C",
+    "cmyk": [
+      68,
+      59,
+      75,
+      22
+    ]
+  },
+  {
+    "kanji_name": "\u5208\u5b89",
+    "english_name": "KARIYASU",
+    "hex_rgb": "E9CD4C",
+    "cmyk": [
+      7,
+      15,
+      74,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u83dc\u306e\u82b1",
+    "english_name": "NANOHANA",
+    "hex_rgb": "F7D94C",
+    "cmyk": [
+      2,
+      11,
+      75,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ec4\u8617",
+    "english_name": "KIHADA",
+    "hex_rgb": "FBE251",
+    "cmyk": [
+      0,
+      5,
+      73,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u84b8\u6817",
+    "english_name": "MUSHIKURI",
+    "hex_rgb": "D9CD90",
+    "cmyk": [
+      16,
+      15,
+      52,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u673d\u8449",
+    "english_name": "AOKUCHIBA",
+    "hex_rgb": "ADA142",
+    "cmyk": [
+      38,
+      31,
+      76,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5973\u90ce\u82b1",
+    "english_name": "OMINAESHI",
+    "hex_rgb": "DDD23B",
+    "cmyk": [
+      16,
+      9,
+      82,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9db8\u8336",
+    "english_name": "HIWACHA",
+    "hex_rgb": "A5A051",
+    "cmyk": [
+      45,
+      33,
+      76,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9db8",
+    "english_name": "HIWA",
+    "hex_rgb": "BEC23F",
+    "cmyk": [
+      32,
+      15,
+      85,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9daf",
+    "english_name": "UGUISU",
+    "hex_rgb": "6C6A2D",
+    "cmyk": [
+      67,
+      54,
+      84,
+      14
+    ]
+  },
+  {
+    "kanji_name": "\u67f3\u8336",
+    "english_name": "YANAGICHA",
+    "hex_rgb": "939650",
+    "cmyk": [
+      52,
+      37,
+      73,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u82d4",
+    "english_name": "KOKE",
+    "hex_rgb": "838A2D",
+    "cmyk": [
+      62,
+      41,
+      83,
+      2
+    ]
+  },
+  {
+    "kanji_name": "\u9eb9\u5875",
+    "english_name": "KIKUJIN",
+    "hex_rgb": "B1B479",
+    "cmyk": [
+      37,
+      23,
+      63,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7483\u5bdb\u8336",
+    "english_name": "RIKANCHA",
+    "hex_rgb": "616138",
+    "cmyk": [
+      72,
+      58,
+      73,
+      19
+    ]
+  },
+  {
+    "kanji_name": "\u85cd\u5a9a\u8336",
+    "english_name": "AIKOBICHA",
+    "hex_rgb": "4B4E2A",
+    "cmyk": [
+      76,
+      61,
+      74,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u6d77\u677e",
+    "english_name": "MIRU",
+    "hex_rgb": "5B622E",
+    "cmyk": [
+      72,
+      56,
+      78,
+      20
+    ]
+  },
+  {
+    "kanji_name": "\u5343\u6b73\u8336",
+    "english_name": "SENSAICHA",
+    "hex_rgb": "4D5139",
+    "cmyk": [
+      77,
+      61,
+      70,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u6885\u5e78\u8336",
+    "english_name": "BAIKOCHA",
+    "hex_rgb": "89916B",
+    "cmyk": [
+      57,
+      38,
+      63,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9db8\u840c\u9ec4",
+    "english_name": "HIWAMOEGI",
+    "hex_rgb": "90B44B",
+    "cmyk": [
+      56,
+      13,
+      77,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u67f3\u67d3",
+    "english_name": "YANAGIZOME",
+    "hex_rgb": "91AD70",
+    "cmyk": [
+      56,
+      24,
+      65,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u88cf\u67f3",
+    "english_name": "URAYANAGI",
+    "hex_rgb": "B5CAA0",
+    "cmyk": [
+      36,
+      10,
+      45,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5ca9\u4e95\u8336",
+    "english_name": "IWAICHA",
+    "hex_rgb": "646A58",
+    "cmyk": [
+      69,
+      52,
+      63,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u840c\u9ec4",
+    "english_name": "MOEGI",
+    "hex_rgb": "7BA23F",
+    "cmyk": [
+      70,
+      23,
+      86,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u82d7",
+    "english_name": "NAE",
+    "hex_rgb": "86C166",
+    "cmyk": [
+      57,
+      1,
+      72,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u67f3\u7164\u7af9",
+    "english_name": "YANAGISUSUTAKE",
+    "hex_rgb": "4A593D",
+    "cmyk": [
+      76,
+      57,
+      70,
+      17
+    ]
+  },
+  {
+    "kanji_name": "\u677e\u8449",
+    "english_name": "MATSUBA",
+    "hex_rgb": "42602D",
+    "cmyk": [
+      80,
+      55,
+      79,
+      20
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u4e39",
+    "english_name": "AONI",
+    "hex_rgb": "516E41",
+    "cmyk": [
+      76,
+      51,
+      75,
+      12
+    ]
+  },
+  {
+    "kanji_name": "\u8584\u9752",
+    "english_name": "USUAO",
+    "hex_rgb": "91B493",
+    "cmyk": [
+      57,
+      19,
+      52,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u67f3\u9f20",
+    "english_name": "YANAGINEZUMI",
+    "hex_rgb": "808F7C",
+    "cmyk": [
+      61,
+      41,
+      53,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5e38\u78d0",
+    "english_name": "TOKIWA",
+    "hex_rgb": "1B813E",
+    "cmyk": [
+      82,
+      0,
+      78,
+      40
+    ]
+  },
+  {
+    "kanji_name": "\u82e5\u7af9",
+    "english_name": "WAKATAKE",
+    "hex_rgb": "5DAC81",
+    "cmyk": [
+      68,
+      13,
+      59,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5343\u6b73\u7dd1",
+    "english_name": "CHITOSEMIDORI",
+    "hex_rgb": "36563C",
+    "cmyk": [
+      83,
+      55,
+      69,
+      22
+    ]
+  },
+  {
+    "kanji_name": "\u7dd1",
+    "english_name": "MIDORI",
+    "hex_rgb": "227D51",
+    "cmyk": [
+      86,
+      36,
+      70,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u767d\u7dd1",
+    "english_name": "BYAKUROKU",
+    "hex_rgb": "A8D8B9",
+    "cmyk": [
+      44,
+      0,
+      37,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u8001\u7af9",
+    "english_name": "OITAKE",
+    "hex_rgb": "6A8372",
+    "cmyk": [
+      71,
+      46,
+      60,
+      2
+    ]
+  },
+  {
+    "kanji_name": "\u6728\u8cca",
+    "english_name": "TOKUSA",
+    "hex_rgb": "2D6D4B",
+    "cmyk": [
+      86,
+      46,
+      70,
+      8
+    ]
+  },
+  {
+    "kanji_name": "\u5fa1\u7d0d\u6238\u8336",
+    "english_name": "ONANDOCHA",
+    "hex_rgb": "465D4C",
+    "cmyk": [
+      81,
+      60,
+      68,
+      22
+    ]
+  },
+  {
+    "kanji_name": "\u7dd1\u9752",
+    "english_name": "ROKUSYOH",
+    "hex_rgb": "24936E",
+    "cmyk": [
+      83,
+      23,
+      63,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9306\u9752\u78c1",
+    "english_name": "SABISEIJI",
+    "hex_rgb": "86A697",
+    "cmyk": [
+      58,
+      30,
+      45,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u7af9",
+    "english_name": "AOTAKE",
+    "hex_rgb": "00896C",
+    "cmyk": [
+      92,
+      28,
+      67,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u30d3\u30ed\u30fc\u30c9",
+    "english_name": "VELUDO",
+    "hex_rgb": "096148",
+    "cmyk": [
+      93,
+      54,
+      71,
+      20
+    ]
+  },
+  {
+    "kanji_name": "\u866b\u8956",
+    "english_name": "MUSHIAO",
+    "hex_rgb": "20604F",
+    "cmyk": [
+      89,
+      55,
+      67,
+      17
+    ]
+  },
+  {
+    "kanji_name": "\u85cd\u6d77\u677e\u8336",
+    "english_name": "AIMIRUCHA",
+    "hex_rgb": "0F4C3A",
+    "cmyk": [
+      89,
+      60,
+      67,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u6c88\u9999\u8336",
+    "english_name": "TONOCHA2",
+    "hex_rgb": "4F726C",
+    "cmyk": [
+      77,
+      50,
+      57,
+      4
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u7dd1",
+    "english_name": "AOMIDORI",
+    "hex_rgb": "00AA90",
+    "cmyk": [
+      88,
+      0,
+      53,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u78c1",
+    "english_name": "SEIJI",
+    "hex_rgb": "69B0AC",
+    "cmyk": [
+      61,
+      14,
+      34,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9244",
+    "english_name": "TETSU",
+    "hex_rgb": "26453D",
+    "cmyk": [
+      90,
+      63,
+      66,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u6c34\u6d45\u8471",
+    "english_name": "MIZUASAGI",
+    "hex_rgb": "66BAB7",
+    "cmyk": [
+      68,
+      10,
+      33,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u78a7",
+    "english_name": "SEIHEKI",
+    "hex_rgb": "268785",
+    "cmyk": [
+      85,
+      35,
+      50,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9306\u9244\u5fa1\u7d0d\u6238",
+    "english_name": "SABITETSUONANDO",
+    "hex_rgb": "405B55",
+    "cmyk": [
+      83,
+      59,
+      60,
+      13
+    ]
+  },
+  {
+    "kanji_name": "\u9ad8\u9e97\u7d0d\u6238",
+    "english_name": "KORAINANDO",
+    "hex_rgb": "305A56",
+    "cmyk": [
+      88,
+      58,
+      61,
+      15
+    ]
+  },
+  {
+    "kanji_name": "\u767d\u7fa4",
+    "english_name": "BYAKUGUN",
+    "hex_rgb": "78C2C4",
+    "cmyk": [
+      52,
+      0,
+      20,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5fa1\u53ec\u8336",
+    "english_name": "OMESHICHA",
+    "hex_rgb": "376B6D",
+    "cmyk": [
+      87,
+      54,
+      54,
+      5
+    ]
+  },
+  {
+    "kanji_name": "\u74f6\u8997",
+    "english_name": "KAMENOZOKI",
+    "hex_rgb": "A5DEE4",
+    "cmyk": [
+      42,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6df1\u5ddd\u9f20",
+    "english_name": "FUKAGAWANEZUMI",
+    "hex_rgb": "77969A",
+    "cmyk": [
+      63,
+      38,
+      40,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9306\u6d45\u8471",
+    "english_name": "SABIASAGI",
+    "hex_rgb": "6699A1",
+    "cmyk": [
+      66,
+      30,
+      34,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6c34",
+    "english_name": "MIZU",
+    "hex_rgb": "81C7D4",
+    "cmyk": [
+      55,
+      6,
+      17,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6d45\u8471",
+    "english_name": "ASAGI",
+    "hex_rgb": "33A6B8",
+    "cmyk": [
+      82,
+      18,
+      27,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5fa1\u7d0d\u6238",
+    "english_name": "ONANDO",
+    "hex_rgb": "0C4842",
+    "cmyk": [
+      92,
+      65,
+      62,
+      25
+    ]
+  },
+  {
+    "kanji_name": "\u85cd",
+    "english_name": "AI",
+    "hex_rgb": "0D5661",
+    "cmyk": [
+      95,
+      63,
+      56,
+      17
+    ]
+  },
+  {
+    "kanji_name": "\u65b0\u6a4b",
+    "english_name": "SHINBASHI",
+    "hex_rgb": "0089A7",
+    "cmyk": [
+      95,
+      31,
+      30,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9306\u5fa1\u7d0d\u6238",
+    "english_name": "SABIONANDO",
+    "hex_rgb": "336774",
+    "cmyk": [
+      87,
+      56,
+      52,
+      6
+    ]
+  },
+  {
+    "kanji_name": "\u9244\u5fa1\u7d0d\u6238",
+    "english_name": "TETSUONANDO",
+    "hex_rgb": "255359",
+    "cmyk": [
+      90,
+      63,
+      59,
+      21
+    ]
+  },
+  {
+    "kanji_name": "\u82b1\u6d45\u8471",
+    "english_name": "HANAASAGI",
+    "hex_rgb": "1E88A8",
+    "cmyk": [
+      90,
+      32,
+      23,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u85cd\u9f20",
+    "english_name": "AINEZUMI",
+    "hex_rgb": "566C73",
+    "cmyk": [
+      78,
+      57,
+      52,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u821b\u82b1",
+    "english_name": "MASUHANA",
+    "hex_rgb": "577C8A",
+    "cmyk": [
+      78,
+      48,
+      42,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7a7a",
+    "english_name": "SORA",
+    "hex_rgb": "58B2DC",
+    "cmyk": [
+      72,
+      13,
+      7,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u71a8\u6597\u76ee\u82b1",
+    "english_name": "NOSHIMEHANA",
+    "hex_rgb": "2B5F75",
+    "cmyk": [
+      92,
+      60,
+      47,
+      4
+    ]
+  },
+  {
+    "kanji_name": "\u5343\u8349",
+    "english_name": "CHIGUSA",
+    "hex_rgb": "3A8FB7",
+    "cmyk": [
+      83,
+      31,
+      17,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5fa1\u53ec\u5fa1\u7d0d\u6238",
+    "english_name": "OMESHIONANDO",
+    "hex_rgb": "2E5C6E",
+    "cmyk": [
+      90,
+      63,
+      51,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u7e39",
+    "english_name": "HANADA",
+    "hex_rgb": "006284",
+    "cmyk": [
+      100,
+      60,
+      41,
+      2
+    ]
+  },
+  {
+    "kanji_name": "\u52ff\u5fd8\u8349",
+    "english_name": "WASURENAGUSA",
+    "hex_rgb": "7DB9DE",
+    "cmyk": [
+      52,
+      10,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7fa4\u9752",
+    "english_name": "GUNJYO",
+    "hex_rgb": "51A8DD",
+    "cmyk": [
+      67,
+      21,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9732\u8349",
+    "english_name": "TSUYUKUSA",
+    "hex_rgb": "2EA9DF",
+    "cmyk": [
+      73,
+      20,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ed2\u6a61",
+    "english_name": "KUROTSURUBAMI",
+    "hex_rgb": "0B1013",
+    "cmyk": [
+      92,
+      78,
+      64,
+      48
+    ]
+  },
+  {
+    "kanji_name": "\u7d3a",
+    "english_name": "KON",
+    "hex_rgb": "0F2540",
+    "cmyk": [
+      100,
+      85,
+      50,
+      24
+    ]
+  },
+  {
+    "kanji_name": "\u8910",
+    "english_name": "KACHI",
+    "hex_rgb": "08192D",
+    "cmyk": [
+      100,
+      86,
+      60,
+      45
+    ]
+  },
+  {
+    "kanji_name": "\u7460\u7483",
+    "english_name": "RURI",
+    "hex_rgb": "005CAF",
+    "cmyk": [
+      97,
+      65,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7460\u7483\u7d3a",
+    "english_name": "RURIKON",
+    "hex_rgb": "0B346E",
+    "cmyk": [
+      100,
+      85,
+      39,
+      4
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u78a7",
+    "english_name": "BENIMIDORI",
+    "hex_rgb": "7B90D2",
+    "cmyk": [
+      64,
+      44,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u85e4\u9f20",
+    "english_name": "FUJINEZUMI",
+    "hex_rgb": "6E75A4",
+    "cmyk": [
+      69,
+      56,
+      17,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9244\u7d3a",
+    "english_name": "TETSUKON",
+    "hex_rgb": "261E47",
+    "cmyk": [
+      80,
+      65,
+      0,
+      77
+    ]
+  },
+  {
+    "kanji_name": "\u7d3a\u9752",
+    "english_name": "KONJYO",
+    "hex_rgb": "113285",
+    "cmyk": [
+      100,
+      85,
+      15,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u639b\u82b1",
+    "english_name": "BENIKAKEHANA",
+    "hex_rgb": "4E4F97",
+    "cmyk": [
+      82,
+      70,
+      14,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d3a\u6854\u6897",
+    "english_name": "KONKIKYO",
+    "hex_rgb": "211E55",
+    "cmyk": [
+      100,
+      90,
+      42,
+      12
+    ]
+  },
+  {
+    "kanji_name": "\u85e4",
+    "english_name": "FUJI",
+    "hex_rgb": "8B81C3",
+    "cmyk": [
+      58,
+      52,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u4e8c\u85cd",
+    "english_name": "FUTAAI",
+    "hex_rgb": "70649A",
+    "cmyk": [
+      72,
+      67,
+      21,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u695d",
+    "english_name": "OUCHI",
+    "hex_rgb": "9B90C2",
+    "cmyk": [
+      42,
+      42,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u85e4\u7d2b",
+    "english_name": "FUJIMURASAKI",
+    "hex_rgb": "8A6BBE",
+    "cmyk": [
+      58,
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6854\u6897",
+    "english_name": "KIKYO",
+    "hex_rgb": "6A4C9C",
+    "cmyk": [
+      75,
+      75,
+      10,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d2b\u82d1",
+    "english_name": "SHION",
+    "hex_rgb": "8F77B5",
+    "cmyk": [
+      55,
+      58,
+      1,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6ec5\u7d2b",
+    "english_name": "MESSHI",
+    "hex_rgb": "533D5B",
+    "cmyk": [
+      82,
+      80,
+      48,
+      15
+    ]
+  },
+  {
+    "kanji_name": "\u8584",
+    "english_name": "USU",
+    "hex_rgb": "B28FCE",
+    "cmyk": [
+      43,
+      51,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u534a",
+    "english_name": "HASHITA",
+    "hex_rgb": "986DB2",
+    "cmyk": [
+      55,
+      63,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6c5f\u6238\u7d2b",
+    "english_name": "EDOMURASAKI",
+    "hex_rgb": "77428D",
+    "cmyk": [
+      60,
+      74,
+      0,
+      14
+    ]
+  },
+  {
+    "kanji_name": "\u7d2b\u7d3a",
+    "english_name": "SHIKON",
+    "hex_rgb": "3C2F41",
+    "cmyk": [
+      88,
+      84,
+      60,
+      45
+    ]
+  },
+  {
+    "kanji_name": "\u6df1\u7d2b",
+    "english_name": "KOKIMURASAKI",
+    "hex_rgb": "4A225D",
+    "cmyk": [
+      90,
+      93,
+      43,
+      16
+    ]
+  },
+  {
+    "kanji_name": "\u83eb",
+    "english_name": "SUMIRE",
+    "hex_rgb": "66327C",
+    "cmyk": [
+      74,
+      83,
+      22,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d2b",
+    "english_name": "MURASAKI",
+    "hex_rgb": "592C63",
+    "cmyk": [
+      81,
+      87,
+      40,
+      7
+    ]
+  },
+  {
+    "kanji_name": "\u83d6\u84b2",
+    "english_name": "AYAME",
+    "hex_rgb": "6F3381",
+    "cmyk": [
+      71,
+      87,
+      14,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u85e4\u7164\u7af9",
+    "english_name": "FUJISUSUTAKE",
+    "hex_rgb": "574C57",
+    "cmyk": [
+      75,
+      70,
+      57,
+      25
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u85e4",
+    "english_name": "BENIFUJI",
+    "hex_rgb": "B481BB",
+    "cmyk": [
+      38,
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9ed2\u7d05",
+    "english_name": "KUROBENI",
+    "hex_rgb": "3F2B36",
+    "cmyk": [
+      86,
+      85,
+      64,
+      50
+    ]
+  },
+  {
+    "kanji_name": "\u8304\u5b50\u7d3a",
+    "english_name": "NASUKON",
+    "hex_rgb": "572A3F",
+    "cmyk": [
+      40,
+      73,
+      10,
+      73
+    ]
+  },
+  {
+    "kanji_name": "\u8461\u8404\u9f20",
+    "english_name": "BUDOHNEZUMI",
+    "hex_rgb": "5E3D50",
+    "cmyk": [
+      73,
+      77,
+      54,
+      17
+    ]
+  },
+  {
+    "kanji_name": "\u9ce9\u7fbd\u9f20",
+    "english_name": "HATOBANEZUMI",
+    "hex_rgb": "72636E",
+    "cmyk": [
+      68,
+      64,
+      51,
+      6
+    ]
+  },
+  {
+    "kanji_name": "\u675c\u82e5",
+    "english_name": "KAKITSUBATA",
+    "hex_rgb": "622954",
+    "cmyk": [
+      77,
+      92,
+      48,
+      21
+    ]
+  },
+  {
+    "kanji_name": "\u84b2\u8461",
+    "english_name": "EBIZOME",
+    "hex_rgb": "6D2E5B",
+    "cmyk": [
+      71,
+      89,
+      48,
+      12
+    ]
+  },
+  {
+    "kanji_name": "\u7261\u4e39",
+    "english_name": "BOTAN",
+    "hex_rgb": "C1328E",
+    "cmyk": [
+      25,
+      91,
+      8,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u6885\u7d2b",
+    "english_name": "UMEMURASAKI",
+    "hex_rgb": "A8497A",
+    "cmyk": [
+      45,
+      80,
+      37,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u4f3c\u7d2b",
+    "english_name": "NISEMURASAKI",
+    "hex_rgb": "562E37",
+    "cmyk": [
+      75,
+      84,
+      62,
+      42
+    ]
+  },
+  {
+    "kanji_name": "\u8e91\u8e85",
+    "english_name": "TSUTSUJI",
+    "hex_rgb": "E03C8A",
+    "cmyk": [
+      0,
+      80,
+      3,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u7d2b\u9cf6",
+    "english_name": "MURASAKITOBI",
+    "hex_rgb": "60373E",
+    "cmyk": [
+      70,
+      78,
+      61,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u767d\u7df4",
+    "english_name": "SHIRONERI",
+    "hex_rgb": "FCFAF2",
+    "cmyk": [
+      0,
+      3,
+      11,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u80e1\u7c89",
+    "english_name": "GOFUN",
+    "hex_rgb": "FFFFFB",
+    "cmyk": [
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u767d\u9f20",
+    "english_name": "SHIRONEZUMI",
+    "hex_rgb": "BDC0BA",
+    "cmyk": [
+      31,
+      23,
+      28,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u9280\u9f20",
+    "english_name": "GINNEZUMI",
+    "hex_rgb": "91989F",
+    "cmyk": [
+      52,
+      39,
+      36,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u925b",
+    "english_name": "NAMARI",
+    "hex_rgb": "787878",
+    "cmyk": [
+      8,
+      0,
+      0,
+      73
+    ]
+  },
+  {
+    "kanji_name": "\u7070",
+    "english_name": "HAI",
+    "hex_rgb": "828282",
+    "cmyk": [
+      0,
+      0,
+      0,
+      70
+    ]
+  },
+  {
+    "kanji_name": "\u7d20\u9f20",
+    "english_name": "SUNEZUMI",
+    "hex_rgb": "787D7B",
+    "cmyk": [
+      65,
+      53,
+      53,
+      0
+    ]
+  },
+  {
+    "kanji_name": "\u5229\u4f11\u9f20",
+    "english_name": "RIKYUNEZUMI",
+    "hex_rgb": "707C74",
+    "cmyk": [
+      66,
+      50,
+      54,
+      1
+    ]
+  },
+  {
+    "kanji_name": "\u920d",
+    "english_name": "NIBI",
+    "hex_rgb": "656765",
+    "cmyk": [
+      5,
+      0,
+      0,
+      80
+    ]
+  },
+  {
+    "kanji_name": "\u9752\u920d",
+    "english_name": "AONIBI",
+    "hex_rgb": "535953",
+    "cmyk": [
+      78,
+      63,
+      62,
+      20
+    ]
+  },
+  {
+    "kanji_name": "\u6e9d\u9f20",
+    "english_name": "DOBUNEZUMI",
+    "hex_rgb": "4F4F48",
+    "cmyk": [
+      78,
+      65,
+      65,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u7d05\u6d88\u9f20",
+    "english_name": "BENIKESHINEZUMI",
+    "hex_rgb": "52433D",
+    "cmyk": [
+      73,
+      69,
+      63,
+      30
+    ]
+  },
+  {
+    "kanji_name": "\u85cd\u58a8\u8336",
+    "english_name": "AISUMICHA",
+    "hex_rgb": "373C38",
+    "cmyk": [
+      86,
+      72,
+      68,
+      47
+    ]
+  },
+  {
+    "kanji_name": "\u6ab3\u6994\u5b50\u67d3",
+    "english_name": "BINROJIZOME",
+    "hex_rgb": "3A3226",
+    "cmyk": [
+      79,
+      72,
+      72,
+      50
+    ]
+  },
+  {
+    "kanji_name": "\u6d88\u70ad",
+    "english_name": "KESHIZUMI",
+    "hex_rgb": "434343",
+    "cmyk": [
+      0,
+      0,
+      0,
+      88
+    ]
+  },
+  {
+    "kanji_name": "\u58a8",
+    "english_name": "SUMI",
+    "hex_rgb": "1C1C1C",
+    "cmyk": [
+      92,
+      78,
+      73,
+      66
+    ]
+  },
+  {
+    "kanji_name": "\u9ed2",
+    "english_name": "KURO",
+    "hex_rgb": "080808",
+    "cmyk": [
+      91,
+      84,
+      74,
+      71
+    ]
+  },
+  {
+    "kanji_name": "\u5442",
+    "english_name": "RO",
+    "hex_rgb": "0C0C0C",
+    "cmyk": [
+      0,
+      0,
+      0,
+      100
+    ]
+  }
+]
