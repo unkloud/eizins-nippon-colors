@@ -20,7 +20,7 @@ class EizinWork:
         return self.title < other.title
 
     @classmethod
-    def read(cls, pth: Path, img_root_path: Path):
+    def read_profolio(cls, pth: Path, img_root_path: Path):
         soup = BeautifulSoup(pth.read_text(), "html5lib")
         content = soup.find(id="content")
         title = content.find("header").text.strip()
@@ -33,9 +33,18 @@ class EizinWork:
         else:
             return cls(title, desc, None)
 
+    @classmethod
+    def generate(cls, file_name="eizin_profolio.json") -> Path:
+        site_root_path = Path(__file__).parent.resolve().expanduser()
+        catalog = sorted(
+            [EizinWork.read_profolio(Path(pth).resolve(), site_root_path / "gallery" / "gallery.eizin.co.jp") for pth in
+             sys.argv[1:]])
+        profolio_path = Path(file_name)
+        with profolio_path.open("w", encoding="utf-8") as f:
+            json.dump([asdict(p) for p in catalog], f, indent=4, ensure_ascii=False)
 
-site_root_path = Path(__file__).parent.resolve().expanduser()
-catalog = sorted([EizinWork.read(Path(pth).resolve(), site_root_path / "gallery" / "gallery.eizin.co.jp") for pth in
-                  sys.argv[1:]])
-with open("eizin_catalog.json", "w", encoding="utf-8") as f:
-    json.dump([asdict(p) for p in catalog], f, indent=4, ensure_ascii=False)
+    @classmethod
+    def load_profolio(cls, file_name="eizin_profolio.json"):
+        profolio_path = Path(file_name)
+        with profolio_path.open("r", encoding="utf-8") as f:
+            return [EizinWork(**entry) for entry in json.load(f)]
