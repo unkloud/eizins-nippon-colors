@@ -12,12 +12,21 @@ from bs4 import BeautifulSoup
 
 @dataclass
 class EizinWork:
-    title: str
-    desc: str = field(repr=False)
-    base64_encoded_img: Optional[str] = field(default=None, repr=False)
+    title: str = field(repr=True, compare=True, hash=True)
+    desc: str = field(repr=False, compare=False, hash=False)
+    base64_encoded_img: Optional[str] = field(repr=False, compare=False)
+
+    def numeric_title(self):
+        try:
+            return int(self.title.split(" ")[0])
+        except ValueError:
+            return 0
 
     def __lt__(self, other):
-        return self.title < other.title
+        return self.numeric_title() < other.numeric_title()
+
+    def __eq__(self, other):
+        return self.title == other.title
 
     @classmethod
     def read_profolio(cls, pth: Path, img_root_path: Path):
@@ -48,6 +57,7 @@ class EizinWork:
         profolio_path = Path(file_name)
         with profolio_path.open("w", encoding="utf-8") as f:
             json.dump([asdict(p) for p in catalog], f, indent=4, ensure_ascii=False)
+        return profolio_path
 
     @classmethod
     def load_profolio(cls, file_name="eizin_profolio.json"):

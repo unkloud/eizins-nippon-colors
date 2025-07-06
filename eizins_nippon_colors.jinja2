@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nippon colors - letters from slowboat</title>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+</head>
+<body>
+{% for c in enzins_colors %}
+    <div class="row">
+        <div class="card col">
+            <h2>{{ c.piece.title }}</h2>
+            <img src="data:image/png;base64,{{ c.piece.base64_encoded_img }}" alt="{{ c.piece.title }}">
+        </div>
+        <div class="col">
+            {% for color in c.significant_colors %}
+                <div class="row">
+                    <span class="col" style="color:white;background-color:#{{ color.hex_rgb_color }};">
+                        #{{ color.hex_rgb_color }}
+                    </span>
+                </div>
+                <div class="row">
+                    {% for nippon_color_and_similarity in color.nippon_colors_alternatives %}
+                        <span class="col"
+                              style="color:white;background-color:#{{ nippon_color_and_similarity[0].hex_rgb }};">
+                            {{ nippon_color_and_similarity[0].kanji_name }},{{ nippon_color_and_similarity[0].english_name }}
+                        </span>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+</body>
+</html>

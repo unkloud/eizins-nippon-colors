@@ -5,16 +5,17 @@ import math
 from dataclasses import dataclass, asdict
 from io import BytesIO
 from pathlib import Path
+from typing import Self
 
 import numpy
 from PIL import Image
 from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
 from colormath.color_objects import sRGBColor, LabColor
+from tqdm import tqdm
 
 from eizin_profolio import EizinWork
 from nippon_colors import NipponColor
-from tqdm import tqdm
 
 
 def patch_asscalar(a):
@@ -45,7 +46,7 @@ def hex_to_rgb(hex_color: str) -> tuple[int, ...]:
 
 def rgb_to_hex(rgb: tuple[int, int, int]) -> str:
     """Convert RGB tuple to hex string."""
-    return '{:02X}{:02X}{:02X}'.format(rgb[0], rgb[1], rgb[2])
+    return "{:02X}{:02X}{:02X}".format(rgb[0], rgb[1], rgb[2])
 
 
 def color_distance(color1: str, color2: str) -> float:
@@ -206,6 +207,32 @@ class EizinsNipponColors:
                 for (score, hex_color) in visually_significant_colors
             ],
         )
+
+    @classmethod
+    def enzin_nippon_colors(cls, path: Path) -> list[Self]:
+        enzins_colors = []
+        for line in path.read_text().splitlines():
+            line_obj = json.loads(line)
+            work = EizinWork(**line_obj["piece"])
+            enzins_colors.append(
+                EizinsNipponColors(
+                    piece=work,
+                    significant_colors=[
+                        ColorWithSignificanceScore(
+                            hex_rgb_color=significant_color["hex_rgb_color"],
+                            significance_score=significant_color["significance_score"],
+                            nippon_colors_alternatives=[
+                                (NipponColor(**color), similarity_score)
+                                for (color, similarity_score) in significant_color[
+                                    "nippon_colors_alternatives"
+                                ]
+                            ],
+                        )
+                        for significant_color in line_obj["significant_colors"]
+                    ],
+                )
+            )
+        return enzins_colors
 
 
 def main():
