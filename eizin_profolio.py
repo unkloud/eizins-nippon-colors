@@ -37,8 +37,14 @@ class EizinWork:
     def generate(cls, file_name="eizin_profolio.json") -> Path:
         site_root_path = Path(__file__).parent.resolve().expanduser()
         catalog = sorted(
-            [EizinWork.read_profolio(Path(pth).resolve(), site_root_path / "gallery" / "gallery.eizin.co.jp") for pth in
-             sys.argv[1:]])
+            [
+                EizinWork.read_profolio(
+                    Path(pth).resolve(),
+                    site_root_path / "gallery" / "gallery.eizin.co.jp",
+                )
+                for pth in sys.argv[1:]
+            ]
+        )
         profolio_path = Path(file_name)
         with profolio_path.open("w", encoding="utf-8") as f:
             json.dump([asdict(p) for p in catalog], f, indent=4, ensure_ascii=False)

@@ -156,3 +156,6 @@ gallery/
 crawler.sh
 /eizin_catalog.json
 /eizin_profolio.json
+!/eizins_nippon_colors.json
+/eizins_nippon_colors.json
+/eizins_nippon_colors.jsonl
