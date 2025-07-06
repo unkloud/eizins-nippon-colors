@@ -45,7 +45,7 @@ def hex_to_rgb(hex_color: str) -> tuple[int, ...]:
 
 def rgb_to_hex(rgb: tuple[int, int, int]) -> str:
     """Convert RGB tuple to hex string."""
-    return f"{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}"
+    return '{:02X}{:02X}{:02X}'.format(rgb[0], rgb[1], rgb[2])
 
 
 def color_distance(color1: str, color2: str) -> float:
