@@ -2,7 +2,7 @@ import base64
 import colorsys
 import json
 import math
-from dataclasses import dataclass, field
+from dataclasses import dataclass, asdict
 from io import BytesIO
 from pathlib import Path
 
@@ -13,7 +13,7 @@ from colormath.color_diff import delta_e_cie2000
 from colormath.color_objects import sRGBColor, LabColor
 
 from eizin_profolio import EizinWork
-from enc import NipponColor
+from nippon_colors import NipponColor
 
 
 def patch_asscalar(a):
@@ -25,29 +25,26 @@ setattr(numpy, "asscalar", patch_asscalar)
 
 def load_json_file(filename):
     """Load and parse a JSON file."""
-    with open(filename, 'r', encoding='utf-8') as f:
+    with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def decode_base64_image(base64_string):
+def to_image(base64_string: str) -> Image:
     """Decode base64 string to PIL Image."""
-    # Remove data URL prefix if present
-    if base64_string.startswith('data:'):
-        base64_string = base64_string.split(',')[1]
     image_data = base64.b64decode(base64_string)
     image = Image.open(BytesIO(image_data))
     return image
 
 
-def hex_to_rgb(hex_color):
+def hex_to_rgb(hex_color: str) -> tuple[int, ...]:
     """Convert hex color to RGB tuple."""
-    hex_color = hex_color.lstrip('#')
-    return tuple(int(hex_color[i:i + 2], 16) for i in (0, 2, 4))
+    hex_color = hex_color.lstrip("#")
+    return tuple(int(hex_color[i : i + 2], 16) for i in (0, 2, 4))
 
 
-def rgb_to_hex(rgb):
+def rgb_to_hex(rgb: tuple[int, int, int]) -> str:
     """Convert RGB tuple to hex string."""
-    return '{:02X}{:02X}{:02X}'.format(rgb[0], rgb[1], rgb[2])
+    return f"{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}"
 
 
 def color_distance(color1: str, color2: str) -> float:
@@ -78,10 +75,10 @@ def color_distance(color1: str, color2: str) -> float:
     return float(delta_e)
 
 
-def extract_dominant_colors(image: Image, num_colors=10):
+def dominant_colors(image: Image, num_colors=10):
     """Extract dominant colors from an image using color quantization."""
-    if image.mode != 'RGB':
-        image = image.convert('RGB')
+    if image.mode != "RGB":
+        image = image.convert("RGB")
     quantized = image.quantize(colors=num_colors)
     palette = quantized.getpalette()
     colors = []
@@ -93,16 +90,17 @@ def extract_dominant_colors(image: Image, num_colors=10):
     return colors
 
 
-def calculate_visual_significance(image: Image.Image, dominant_colors: list[tuple[int, int, int]]):
+def significant_colors(
+    image: Image.Image, colors: list[tuple[int, int, int]]
+) -> list[str]:
     """
     Calculates the visual significance of dominant colors based on area, saliency, and position.
-
     Returns a list of tuples: [(significance_score, color), ...], sorted by significance.
     """
     # 1. Assign each pixel to the nearest dominant color
     pixel_map = image.load()
     color_assignments = {}  # Will store data for each dominant color
-    for color in dominant_colors:
+    for color in colors:
         color_assignments[color] = {"count": 0, "positions": []}
     # A simple way to map pixels to dominant colors (can be slow, better with numpy)
     for x in range(image.width):
@@ -110,7 +108,9 @@ def calculate_visual_significance(image: Image.Image, dominant_colors: list[tupl
             pixel_rgb = pixel_map[x, y]
             # In a real scenario, use a proper color distance function here!
             # For simplicity, let's find the closest dominant color
-            closest_color = min(dominant_colors, key=lambda c: sum((a - b) ** 2 for a, b in zip(c, pixel_rgb)))
+            closest_color = min(
+                colors, key=lambda c: sum((a - b) ** 2 for a, b in zip(c, pixel_rgb))
+            )
 
             color_assignments[closest_color]["count"] += 1
             color_assignments[closest_color]["positions"].append((x, y))
@@ -132,7 +132,9 @@ def calculate_visual_significance(image: Image.Image, dominant_colors: list[tupl
         if data["positions"]:
             avg_x = sum(p[0] for p in data["positions"]) / data["count"]
             avg_y = sum(p[1] for p in data["positions"]) / data["count"]
-            dist_from_center = math.sqrt((avg_x - img_center[0]) ** 2 + (avg_y - img_center[1]) ** 2)
+            dist_from_center = math.sqrt(
+                (avg_x - img_center[0]) ** 2 + (avg_y - img_center[1]) ** 2
+            )
             position_score = 1.0 - (dist_from_center / max_dist)
         else:
             position_score = 0
@@ -140,15 +142,20 @@ def calculate_visual_significance(image: Image.Image, dominant_colors: list[tupl
         w_area = 0.5
         w_saliency = 0.3
         w_position = 0.2
-        final_score = (w_area * proportion) + (w_saliency * saturation) + (w_position * position_score)
-        color_scores.append((final_score, color))
+        final_score = (
+            (w_area * proportion)
+            + (w_saliency * saturation)
+            + (w_position * position_score)
+        )
+        color_scores.append((final_score, rgb_to_hex(color)))
     # 4. Sort by final score
     color_scores.sort(key=lambda item: item[0], reverse=True)
     return color_scores
 
 
-def find_closest_nippon_colors(target_rgb, nippon_colors: [NipponColor], closest_n=3) -> list[
-    tuple[NipponColor, float]]:
+def find_closest_nippon_colors(
+    target_rgb, nippon_colors: list[NipponColor], closest_n=5
+) -> list[tuple[NipponColor, float]]:
     """Find the closest n nippon color to the target RGB color."""
     color_and_distance = []
     for color in nippon_colors:
@@ -159,39 +166,55 @@ def find_closest_nippon_colors(target_rgb, nippon_colors: [NipponColor], closest
 
 
 @dataclass
-class NipponColorSignificance:
-    color: NipponColor
-    score: float
+class ColorWithSignificanceScore:
+    hex_rgb_color: str
+    significance_score: float
+    nippon_colors_alternatives: list[tuple[NipponColor, float]]
+
+    @classmethod
+    def with_eizins_nippon_colors_alternatives(
+        cls,
+        hex_rgb_color: str,
+        significance_score: float,
+        nippon_colors: list[NipponColor],
+    ):
+        nippon_colors_alternatives = find_closest_nippon_colors(
+            hex_rgb_color, nippon_colors
+        )
+        return ColorWithSignificanceScore(
+            hex_rgb_color, significance_score, nippon_colors_alternatives
+        )
 
 
 @dataclass
-class EizonsNipponColors:
-    work: EizinWork
-    nippon_color_palette: [NipponColorSignificance] = field(init=False)
+class EizinsNipponColors:
+    piece: EizinWork
+    significant_colors: list[ColorWithSignificanceScore]
 
-    def __post_init__(self):
-        pass
+    @classmethod
+    def from_eizin_work(cls, piece: EizinWork, nippon_colors: list[NipponColor]):
+        print(f"Processing {piece.title}")
+        image = to_image(piece.base64_encoded_img)
+        visually_significant_colors = significant_colors(image, dominant_colors(image))
+        return cls(
+            piece,
+            [
+                ColorWithSignificanceScore.with_eizins_nippon_colors_alternatives(
+                    hex_color, score, nippon_colors
+                )
+                for (score, hex_color) in visually_significant_colors
+            ],
+        )
 
 
 def main():
-    nippon_colors = NipponColor.load(Path('nippon_colors.json'))
-    profolio = EizinWork.load_profolio(Path('eizin_profolio.json'))
-    for work in profolio:
-        image = decode_base64_image(work.base64_encoded_img)
-        dominant_colors = extract_dominant_colors(image)
-        dominant_color_scores = calculate_visual_significance(image, dominant_colors)
-        print("Extracted Color Palette:")
-        for i, (score, color) in enumerate(dominant_color_scores, 1):
-            hex_color = rgb_to_hex(color)
-            print(f"{i:2d}. RGB: {color} | Hex: #{hex_color}, sigificance: {score:.2f}")
-        for i, (score, color) in enumerate(dominant_color_scores, 1):
-            hex_color = rgb_to_hex(color)
-            colors = find_closest_nippon_colors(hex_color, nippon_colors)
-            for closest_nippon, distance in colors:
-                print(f"{i:<3} RGB: {color} #{hex_color:<10} | "
-                      f"{closest_nippon.english_name:<15} (#{closest_nippon.hex_rgb}) | "
-                      f"{distance:.2f}")
-                print(f"    {'':20} | {closest_nippon.kanji_name}")
+    nippon_colors = NipponColor.load(Path("nippon_colors.json"))
+    profolio = EizinWork.load_profolio(Path("eizin_profolio.json"))
+    eizins_nippon_colors = [
+        EizinsNipponColors.from_eizin_work(piece, nippon_colors) for piece in profolio
+    ]
+    with open("eizins_nippon_colors.json", "w") as f:
+        json.dump(eizins_nippon_colors, f, indent=2, ensure_ascii=False, default=asdict)
 
 
 if __name__ == "__main__":

@@ -12,4 +12,5 @@ dependencies = [
     "ruff>=0.12.2",
     "pillow>=10.0.0",
     "colormath>=3.0.0",
+    "black>=25.1.0",
 ]

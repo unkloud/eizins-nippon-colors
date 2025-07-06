@@ -19,10 +19,12 @@ class NipponColor:
 
     def __post_init__(self):
         if not self.cmyk and not self.hex_rgb:
-            resp = httpx.post("https://nipponcolors.com/php/io.php", data={"color": self.english_name}).json()
+            resp = httpx.post(
+                "https://nipponcolors.com/php/io.php", data={"color": self.english_name}
+            ).json()
             rgb_str, cmyk_str = resp["rgb"], resp["cmyk"]
             self.hex_rgb = rgb_str
-            self.cmyk = tuple([int(''.join(s)) for s in batched(cmyk_str, 3)])  # noqa
+            self.cmyk = tuple([int("".join(s)) for s in batched(cmyk_str, 3)])  # noqa
 
     @classmethod
     def refresh(cls, source_page: str = "https://nipponcolors.com"):
@@ -46,8 +48,12 @@ class NipponColor:
 
 def main():
     parser = argparse.ArgumentParser(description="Manage Nippon Colors data.")
-    subparsers = parser.add_subparsers(dest="command", help="Available commands", required=True)
-    refresh_parser = subparsers.add_parser("refresh", help="Refresh data and save to an output file.")
+    subparsers = parser.add_subparsers(
+        dest="command", help="Available commands", required=True
+    )
+    refresh_parser = subparsers.add_parser(
+        "refresh", help="Refresh data and save to an output file."
+    )
     refresh_parser.add_argument(
         "--output",
         "-o",
@@ -61,12 +67,16 @@ def main():
         help="URL of the source page to fetch color data from (default: https://nipponcolors.com)",
     )
     # Define the 'markdown' command.
-    markdown_parser = subparsers.add_parser("markdown", help="Generate markdown output from a file.")
+    markdown_parser = subparsers.add_parser(
+        "markdown", help="Generate markdown output from a file."
+    )
     markdown_parser.add_argument(
         "file_name",
         help="Path to the input file for markdown generation.",
     )
-    markdown_parser.add_argument("--element", default="span", help="HTML element to use for markdown output.")
+    markdown_parser.add_argument(
+        "--element", default="span", help="HTML element to use for markdown output."
+    )
     args = parser.parse_args()
     if args.command == "refresh":
         colors = NipponColor.refresh(source_page=args.source)
