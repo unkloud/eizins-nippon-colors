@@ -2,7 +2,8 @@
 
 import argparse
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from functools import cache
 from itertools import batched
 from pathlib import Path
 
@@ -10,12 +11,12 @@ import httpx
 from bs4 import BeautifulSoup
 
 
-@dataclass
+@dataclass(unsafe_hash=True)
 class NipponColor:
-    kanji_name: str
-    english_name: str
-    hex_rgb: str = ""
-    cmyk: tuple[int, int, int, int] = None
+    kanji_name: str = field(repr=True, hash=False)
+    english_name: str = field(repr=False, hash=False)
+    hex_rgb: str = field(repr=False, default="", hash=True)
+    cmyk: tuple[int, int, int, int] = field(repr=False, default=None, hash=False)
 
     def __post_init__(self):
         if not self.cmyk and not self.hex_rgb:
@@ -44,6 +45,16 @@ class NipponColor:
 
     def as_markdown(self, element="span") -> str:
         return f"<{element} style='background-color: #{self.hex_rgb}'>{self.kanji_name}, {self.english_name}</{element}>"
+
+    @property
+    @cache
+    def rgbi(self):
+        """Return the color in integer RGB format."""
+        return (
+            int(self.hex_rgb[0:2], 16),
+            int(self.hex_rgb[2:4], 16),
+            int(self.hex_rgb[4:6], 16),
+        )
 
 
 def main():

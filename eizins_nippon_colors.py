@@ -7,11 +7,9 @@ from io import BytesIO
 from pathlib import Path
 from typing import Self
 
+import colour
 import numpy
 from PIL import Image
-from colormath.color_conversions import convert_color
-from colormath.color_diff import delta_e_cie2000
-from colormath.color_objects import sRGBColor, LabColor
 from tqdm import tqdm
 
 from eizin_profolio import EizinWork
@@ -51,29 +49,26 @@ def rgb_to_hex(rgb: tuple[int, int, int]) -> str:
 
 def color_distance(color1: str, color2: str) -> float:
     """
-    Calculates the perceptual color difference between two RGB colors using the CIEDE2000 formula.
-    This is a highly accurate, industry-standard metric for determining how different two colors
-    appear to the human eye. The calculation is done in the perceptually uniform CIELAB color space.
-    A lower Delta E (ΔE) value means the colors are more similar.
-    - ΔE < 1.0: Difference is not perceptible by the human eye.
-    - 1.0 < ΔE < 2.0: Perceptible only through close observation.
-    - 2.0 < ΔE < 10.0: Perceptible at a glance.
+    Calculates the perceptual color difference between two RGB colors using the CIEDE2000 Delta E formula
+    via the 'colour' package.
+
     Args:
-        color1: A tuple representing the first RGB color (R, G, B) from 0-255.
-        color2: A tuple representing the second RGB color (R, G, B) from 0-255.
+        color1: Hex string for the first color, e.g., '#RRGGBB' or 'RRGGBB'.
+        color2: Hex string for the second color, e.g., '#RRGGBB' or 'RRGGBB'.
     Returns:
-        The perceptual difference (Delta E 2000) between the two colors as a float.
+        The Delta E (2000) distance as a float.
     """
-    # Create sRGBColor objects from the 0-255 integer tuples.
-    # colormath requires RGB values to be normalized to a 0.0-1.0 scale.
-    color1_rgb = sRGBColor.new_from_rgb_hex(color1)
-    color2_rgb = sRGBColor.new_from_rgb_hex(color2)
-    # Convert the sRGB color objects to the CIELAB color space.
-    # The Delta E 2000 formula operates on colors in this space.
-    color1_lab = convert_color(color1_rgb, LabColor)
-    color2_lab = convert_color(color2_rgb, LabColor)
-    # Calculate the Delta E 2000 color difference.
-    delta_e = delta_e_cie2000(color1_lab, color2_lab)
+    # Remove '#' if present
+    color1 = color1.lstrip("#")
+    color2 = color2.lstrip("#")
+    # Convert hex to 0-1 range RGB tuples
+    rgb1 = colour.notation.HEX_to_RGB(color1)
+    rgb2 = colour.notation.HEX_to_RGB(color2)
+    # Convert sRGB to Lab
+    lab1 = colour.XYZ_to_Lab(colour.sRGB_to_XYZ(rgb1))
+    lab2 = colour.XYZ_to_Lab(colour.sRGB_to_XYZ(rgb2))
+    # Calculate Delta E (CIEDE2000)
+    delta_e = colour.delta_E(lab1, lab2, method="CIE 2000")
     return float(delta_e)
 
 
