@@ -74,12 +74,12 @@ gallery/
 crawler.sh
 /eizin_catalog.json
 /eizin_profolio.json
-!/eizins_nippon_colors.json
 /eizins_nippon_colors.json
 /eizins_nippon_colors.jsonl
-!/eizins_nippon_colors.html
 /eizins_nippon_colors.html
 /color_index.json
 /color_similarity.json
 /color_similarity.json.msgpack
 /artefacts
+/generated
+/nippon_colored
