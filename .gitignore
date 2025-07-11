@@ -165,3 +165,5 @@ crawler.sh
 /eizins_nippon_colors.html
 /color_index.json
 /color_similarity.json
+/color_similarity.json.msgpack
+/artefacts

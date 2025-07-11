@@ -42,6 +42,6 @@ if __name__ == "__main__":
         scores = pool.map(
             similarity_scores, hex_colors, [nippon_colors] * len(hex_colors)
         )
-    if not Path("color_similarity.json").exists():
+    if not Path("color_similarity.json").is_file():
         with open("color_similarity.json", "w") as f:
             print(json.dumps(dict(zip(hex_colors, scores)), indent=2), file=f)
